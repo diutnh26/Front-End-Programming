@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Contact Us</title>
+  </head>
+  <body>
+    <article>
+      <h1>Contact Us</h1>
+      <form action="https://httpsbin.org/post" method="post">
+        <div>
+          <p>
+            <label for="name">Your name:</label>
+          </p>
+          <input type="text" id="name" name="name" required />
+        </div>
+
+        <div>
+          <p>
+            <label for="email">Your email:</label>
+          </p>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div>
+          <p>
+            <label for="message">Your message:</label>
+          </p>
+          <textarea id="message" name="message" rows="5" required></textarea>
+        </div>
+
+        <button type="submit">Send Message</button>
+      </form>
+    </article>
+  </body>
+</html>
