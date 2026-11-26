@@ -1,0 +1,140 @@
+/* ========== WHOLE PAGE ========== */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  color: #1f2a1f;              /* main text */
+  background-color: #f4f8f1;   /* very light green background */
+}
+
+h1,
+h2,
+h3 {
+  color: #2f5d3a;              /* dark green */
+  line-height: 1.2;
+}
+
+/* ========== HEADER ========== */
+.site-header {
+  padding: 12px 24px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d6e4cf;
+}
+
+.site-header img {
+  vertical-align: middle;
+}
+
+.brand {
+  margin-left: 8px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #2f5d3a;
+  vertical-align: middle;
+}
+
+.site-header nav {
+  display: inline-block;
+  margin-left: 32px;
+}
+
+.site-header nav a {
+  margin-right: 16px;
+  color: #2f5d3a;
+  text-decoration: none;
+}
+
+.site-header nav a:hover {
+  text-decoration: underline;
+}
+
+/* ========== HERO: dark background, light text ========== */
+.hero {
+  padding: 64px 24px;
+  text-align: center;
+  background-color: #2f5d3a;
+  color: #ffffff;
+}
+
+.hero h1 {
+  margin: 0 0 8px;
+  font-size: 44px;
+  color: #ffffff;              /* overrides the shared h1 color */
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 16px;
+  padding: 12px 28px;
+  border-radius: 24px;         /* pill shape */
+  background-color: #a3c585;
+  color: #1f2a1f;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+}
+
+/* ========== OTHER SECTIONS ========== */
+#teas,
+.visit {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+/* ========== TEA CARDS ========== */
+.tea-list {
+  padding: 0;
+  list-style: none;
+}
+
+.tea {
+  margin-bottom: 16px;
+  padding: 20px 24px;
+  border: 1px solid #d6e4cf;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.tea h3 {
+  margin: 0 0 4px;
+}
+
+.tea p {
+  margin: 0;
+  color: #5a6b58;
+}
+
+.tea .price {
+  margin-top: 8px;
+  color: #2f5d3a;
+  font-weight: bold;
+}
+
+/* ========== VISIT US ========== */
+.visit ul {
+  padding-left: 20px;          /* keep the bullets */
+}
+
+.visit li {
+  margin-bottom: 8px;
+}
+
+/* ========== FOOTER ========== */
+.site-footer {
+  padding: 20px;
+  text-align: center;
+  background-color: #1f2a1f;
+  color: #d6e4cf;
+}
+
+.site-footer p {
+  margin: 0;
+}
